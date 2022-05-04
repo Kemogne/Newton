@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(212, 214, 215);
+}
+.nav_panierlink{
+    align-content: right;
+    position: fixed;
+    display: block;
+}
+.panierlink{
+    text-decoration: none;
+}
+.panier_p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: right;
+}
+.panierlink_button{
+    border-radius: 30%;
+    border-color: rgb(51, 193, 193);
+    background-color: aqua;
+}
+.div1{
+    align-self: center;
+    align-content: center;
+    background-color: rgb(247, 247, 246);
+    margin-left: 5%;
+    margin-right: 5%;/*
+    padding-top: 3%;*/
+    border-radius: 10px;
+}
+.p_accueil1{
+    text-align: center;
+    color: rgb(180, 90, 192);
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 200%;
+}
+.div2{
+    font-size: 10%;
+    background-color: white;
+}
+.div_contener{
+    align-self: center;
+    align-content: center;
+    background-color: rgb(161, 159, 159);
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.div3{
+    align-self: center;
+    align-content: center;
+    background-color: rgb(241, 247, 248);
+    padding: 1%;
+}
+.p_ac1{
+    align-self: center;
+    align-content: center;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center;
+}
+.but_ac1{
+    align-self: left;
+    align-content: center;
+    padding: left;
+    font-size: large;
+    border-radius: 20%;
+    border: none;
+    background-color: rgb(214, 169, 243);
+}
+.but_ac2{
+    align-self: right;
+    align-content: center;
+    padding: right;
+    font-size: large;
+    border: none;
+    border-radius: 20%;
+    background-color: rgb(214, 169, 243);
+}
+.p_button{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(243, 240, 245);
+    font-size: 100%;
+}
+.div_app{
+    margin-top: 5%;
+    align-self: center;
+    align-content: center;
+}
+.p_app{
+    text-align: center;
+}
+.p_app2{
+    text-align: center;
+}
+footer{
+    background-color: blueviolet;
+    font-size: 100%;
+}
+.footer_tab{
+    text-decoration: white;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.footer_title{
+    font-weight: bolder;
+    font-size: larger;
+}
+.img_div{
+    width: 100%;
+}
+.img_but{
+    border: none;
+    border-radius: 10%;
+}
+.img_im{
+    width: 100%;
+    border-radius: 10%;
+}
+.fig_p_title{
+    font-weight: bold;
+}
+.img_fig{
+    text-align: center;
+}
+.fig_td{
+    text-align: left;
+}
+.p_categorie{
+    font-weight: bolder;
+}
+.p_pay{
+    font-weight: bold;
+}

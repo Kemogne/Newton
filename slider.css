@@ -1,0 +1,25 @@
+.img_div_to_slide{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: block;
+    align-items: center;
+}
+.but_ac1,.but_ac2{
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    position: absolute;
+    padding: 3%;
+}
+.but_ac1{
+    left: 0;
+}
+.but_ac2{
+    right: 0;
+}
+.img_div_to_slide:hover .but_ac1,
+.img_div_to_slide:hover .but_ac2{
+    opacity: 1;
+    background-color: black;
+}
