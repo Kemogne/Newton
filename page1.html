@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="cascdingstylesheet.css"/>
+        <link rel="stylesheet" href="slider.css"/>
+        <script type="text/javascript" src="jvscript.js"></script>
+        <title>Marchand</title>
+    </head>
+    <body>
+        <nav class="nav_panierlink">
+            <a class="panierlink" href="panier.html"><button class="panierlink_button" onblur-color="red" onclick=""><p class="panier_p">Panier</p></button></a>
+        </nav>
+        <div class="div1">
+            <p class="p_accueil1">
+                Bienvenue sur Espace-marchand
+            </p>
+        </div><div class="div2">&nbsp&nbsp&nbsp</div>
+        <div class="div_contener">
+            <div class="div3">
+                <p class="p_ac1">
+                    Nous utilisons les API de faroty pour vos 
+                    achats de produits en ligne...
+                </p>
+            </div>
+            <p class="p_categorie">
+                Categorie :
+            </p>
+            <div class="img_div_to_slide">
+
+                <!--Div pour les images-->
+
+                <img class="img_im" src="img/iiOS 13.JPG" alt="iPhone 13"/>
+                <img class="img_im" src="img/fraise.JPG" alt="Fraise"/>
+                <img class="img_im" src="img/jouet.JPG" alt="jouet de noel"/> 
+                <img class="img_im" src="img/ios 132.JPG" alt="iPhone 13"/>
+                <img class="img_im" src="img/Ordinateur ASUS.JPG" alt="ordinateur"/>
+                
+                <div class="but_ac1" onclick="showDivs(-1)" onscroll="showDivs(-1)" title="précédent"><p class="p_button">&#10094;</p></div>
+                <div class="but_ac2" onclick="showDivs(1)" onscroll="showDivs(1)" title="suivant"><p class="p_button">&#10095;</p></button>
+            </div>
+        </div>
+        <div class="div_app">
+            <p class="p_app">Faroty, notre meilleur partenaire</p>
+            <p class="p_app2"><a href="https://faroty.com/index.php?r=site/download" 
+                title="Cliquez pour télécharger l'application faroty"
+                target="_blank">
+                <b>
+                    Téléchargez faroty app ici
+                </b></a></p>
+        </div>
+        <div class="div2">
+            &nbsp
+        </div>
+        <footer>
+            <div>
+                <table align="center" class="footer_tab">
+                    <tr class="footer_title">
+                        <td><p>Nos Points de vente</p></td>
+                        <td>&nbsp&nbsp&nbsp</td>
+                        <td><p>Nos termes</p></td>
+                        <td>&nbsp&nbsp&nbsp</td>
+                        <td><p>Contactez-nous</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Akwa face city sport</p></td>
+                        <td></td>
+                        <td><a href="" title="Cliquez pour lire les conditions d'utilisation"
+                            target="_blank">
+                            <p>Conditions d'utilisation</p></a></td>
+                        <td></td>
+                        <td><p>+237 693-42-98-61</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Bonamoussadi terminus</p></td>
+                        <td></td>
+                        <td><a href="" title="Cliquez pour lire les règles à respecter dans le site "
+                            target="_blank">
+                            <p>Règles et respect</p></a></td>
+                        <td></td>
+                        <td><a href="mailto:newtonkemogne@gmail.com" 
+                            title="Cliquez pour nous envoyer un mail"
+                            target="_blank">
+                            <p>ankemo@gmail.com</p>
+                        </a></td>
+                    </tr>
+                </table>
+            </div>
+        </footer>
+        <script>
+            var slideIndex = 1;
+            showImg(slideIndex);
+            
+            function showDivs(n) {
+              showImg(slideIndex += n);
+            }
+            
+            function showImg(n) {
+              var i;
+              var x = document.getElementsByClassName("img_im");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+    </body>
+</html>
+<!--
+    <img class="img_im" src="img/iiOS 13.JPG" alt="iPhone 13"/>
+                <img class="img_im" src="img/fraise.JPG" alt="Fraise"/>
+                <img class="img_im" src="img/jouet.JPG" alt="jouet de noel"/>                    <img class="img_im" src="img/Ordinateur ASUS.JPG" alt="ordinateur Desktop"/>
+                <figcaption class="img_fig">
+                    <table align="center">
+                        <tr class="fig_td">
+                            <td>
+                                <p class="fig_p_title"> </p>
+                                <p>Prix : </p>
+                                <p>Couleur : </p>
+                            </td>
+                        </tr>
+                    </table>
+                </figcaption>
+-->
